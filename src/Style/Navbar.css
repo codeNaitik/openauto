@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.btn_navbar{
+    padding: 1em 3em 1em 3em;
+    border-radius: 3em;
+    border: 2px solid white;
+    background-color: transparent;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    /* margin-top: 20px; */
+    font-weight: 600;
+    opacity: 81%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+    /* padding: 4em 2em 0em 2em; */
+    /* text-align: center; */
+/* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.left_navbar h1{
+    position: absolute;
+    margin: 1em 0em 0em 3em;
+top: 10px;
+    
+}
+.right_navbar_side{
+display: flex;
+/* float: right; */
+/* flex-direction: row; */
+/* width: 90em; */
+text-align: center;
+align-items: center;
+margin-left: 34em;
+margin-top: 2em;
+/* padding: 3em; */
+
+}
+
+.phone_navbar, .email_navbar{
+    display: flex;
+    /* padding: 1em; */
+    margin: 0px 20px 0px 20px;
+}
+
+.phone_icon, .email_icon{
+    display: flex; 
+    text-align: center;
+}
+
+.phone{
+    padding: 4px 5px 5px 5px;
+}
+
+
+/* ========media query==== */
+
+@media (0px <=width<= 600px) {
+    .right_navbar_side{
+        display: none;
+    }
+
+    .left_navbar h1{
+        position: absolute;
+        margin: 1em 0em 0em 1em;
+
+        
+    }
+}
