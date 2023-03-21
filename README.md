@@ -1,21 +1,22 @@
-#DOCUMENTATION
+# DOCUMENTATION
 
 In the project directory:
 
-Tech stack: React, node, express, mongodb
+## Tech stack: React, node, express, mongodb
 
 After fork--> pre install requirement: 
 
-mongodb => for database, prefer to install in on own machine
+mongodb --> for database, prefer to install in on own machine
 
 Run below command to install all necessary things:
 
 npm install express body-parser mongodb cors axios 
 
 
-#file structuring
+### file structuring
 
 components => having all files of frontend and backend
+
         |__footer.jsx
         |__navbar.jsx
         |__work.jsx
@@ -25,6 +26,7 @@ components => having all files of frontend and backend
 
 
 style=> file conductin all css styling
+
     |__footer.css
     |__navbar.css
     |__work.css
